@@ -38,9 +38,11 @@ RiceGrainNet is an interactive web app built using Streamlit and a Convolutional
    git clone https://github.com/yourusername/ricegrainnet.git
    cd ricegrainnet
 2. Install dependencies:
+   ```bash
    pip install -r requirements.txt
 
 3.Run the app:
+   ```bash
   streamlit run finalnueral.py
 
 Make sure to update the model path in finalnueral.py with the correct relative or absolute path to your rice_cnn_model.h5 file.
